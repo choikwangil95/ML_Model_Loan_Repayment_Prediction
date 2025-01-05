@@ -1,0 +1,10 @@
+pandas
+numpy
+seaborn
+matplotlib
+ipython
+scipy
+imbalanced-learn
+scikit-learn
+shap
+# mlflow
