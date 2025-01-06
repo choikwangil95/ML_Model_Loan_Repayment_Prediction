@@ -56,3 +56,30 @@ T.B.D
 ## 5 모델 개선 및 평가
 
 T.B.D
+
+## 개발환경 구성
+- OS: windows
+```bash
+# python version
+
+# pyenv 설치: https://github.com/pyenv-win/pyenv-win
+
+pyenv local $(cat .python-version)
+
+pyenv --version
+```
+```bash
+# python virtual environment
+
+python -m venv <ENV_NAME>
+
+.\<ENV_NAME>\Scripts\activate
+```
+```bash
+# kaggle API 사용
+
+# kaggle API key 파일: https://www.kaggle.com
+
+mkdir -p ~/.kaggle
+cp kaggle.json ~/.kaggle
+```
