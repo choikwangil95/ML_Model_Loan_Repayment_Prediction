@@ -6,5 +6,11 @@ mlartifacts
 /src/home-credit-default-risk.zip
 /src/home-credit-default-risk_files/
 
-# env
-myvenv
+# 이름에 venv가 포함된 디렉터리 무시
+*venv*/
+
+# 일반적인 Python 프로젝트 무시 항목
+__pycache__/
+*.py[cod]
+.env
+.ipynb_checkpoints/

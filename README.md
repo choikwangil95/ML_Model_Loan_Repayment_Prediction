@@ -59,27 +59,33 @@ T.B.D
 
 ## 개발환경 구성
 - OS: windows
-```bash
-# python version
 
+python 버전 설정
+```bash
 # pyenv 설치: https://github.com/pyenv-win/pyenv-win
 
 pyenv local $(cat .python-version)
 
-pyenv --version
+python --version # 3.8.10
 ```
+python 가상환경 생성 및 실행
 ```bash
-# python virtual environment
-
 python -m venv <ENV_NAME>
 
-.\<ENV_NAME>\Scripts\activate
+./<ENV_NAME>/Scripts/activate
 ```
+python 패키지 설치
 ```bash
-# kaggle API 사용
-
+pip install -r requirements.txt
+```
+kaggle API Key 파일 설정
+```bash
 # kaggle API key 파일: https://www.kaggle.com
 
 mkdir -p ~/.kaggle
 cp kaggle.json ~/.kaggle
+```
+mlflow 실행
+```bash
+mlflow ui
 ```
