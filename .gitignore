@@ -1,3 +1,10 @@
-myenv3
+# mlflow
 mlruns
-/src/datas/
+mlartifacts
+
+# datas
+/src/home-credit-default-risk.zip
+/src/home-credit-default-risk_files/
+
+# env
+myvenv

@@ -1,4 +1,4 @@
-pandas
+ppandas
 numpy
 seaborn
 matplotlib
@@ -7,4 +7,6 @@ scipy
 imbalanced-learn
 scikit-learn
 shap
-# mlflow
+ipykernel
+kaggle
+mlflow
